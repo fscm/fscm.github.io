@@ -1,0 +1,3 @@
+[submodule "themes/stupidity_rocks"]
+	path = themes/stupidity_rocks
+	url = git@github.com:fscm/hugo-stupidity_rocks.git
