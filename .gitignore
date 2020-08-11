@@ -1,0 +1,18 @@
+# Hugo
+hugo_stats.json
+#/public/
+/resources/_gen/*
+!.gitkeep
+
+# macOS
+*.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+
+# Windows
+[Dd]esktop.ini
+Thumbs.db
