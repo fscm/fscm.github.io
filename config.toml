@@ -1,9 +1,7 @@
 baseURL = ""
-languageCode = "en-us"
+copyright = "&copy; 2020 Frederico Martins"
 theme = "stupidity_rocks"
 title = "Stupidity Rocks"
-
-disableKinds = ["page", "RSS", "section", "taxonomy", "term"]
 
 publishDir = "docs"
 
@@ -11,18 +9,11 @@ publishDir = "docs"
   name = "Frederico Martins"
 
 [params]
-  bannerTitle = "hello,"
-  bannerMessage = "You have reached the end of the Internet. You have reach the very last page on the very last server at the very far end of the cloud - the furthest one that you can see when looking up at the sky.<br /><br />There is nothing more to see, no more pages to visit, no more links to follow.<br /><br />You should now turn off your device and go do something useful with the rest of your life."
-  copyright = "Copyright &copy; 2020 Frederico Martins"
+  headerTitle = "hello,"
+  headerSubtitle = "You have reached the end of the Internet. You have reach the very last page on the very last server at the very far end of the cloud - the furthest one that you can see when looking up at the sky.<br /><br />There is nothing more to see, no more pages to visit, no more links to follow.<br /><br />You should now turn off your device and go do something useful with the rest of your life."
   description = "Stupidity Rocks Wwebsite"
   madein = "Made in PT"
   ribbonText = "stupidity<br />should be painfull"
-
-[params.colors]
-  background = "#293f50"
-  font = "#f1f3f4"
-  ribbonBackground = "#1a1b1f"
-  ribbonFont = "#f1f3f4"
 
 [minify]
   disableCSS = false
@@ -30,6 +21,7 @@ publishDir = "docs"
   disableXML = false
   minifyOutput = true
 
-[caches]
-  [caches.assets]
-    maxAge = "30m"
+[module]
+  [module.hugoVersion]
+    min = "0.74.0"
+    extended = true
